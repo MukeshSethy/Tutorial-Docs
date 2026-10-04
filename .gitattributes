@@ -1,0 +1,5 @@
+# These are built deliverables, not source. Git's autocrlf would rewrite the
+# line endings of the HTML on commit, so a download no longer matches the
+# md5 of the file that was built and verified. Keep every byte as-is.
+*.html -text
+*.pdf  binary
